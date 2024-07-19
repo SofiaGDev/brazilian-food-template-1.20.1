@@ -1,4 +1,4 @@
-package com.bv.brazilianfood.mixin;
+package com.bv.brazilianfoods.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

@@ -3,23 +3,26 @@
 	"id": "brazilianfoods",
 	"version": "${version}",
 	"name": "brazilianfoods",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A mod adds brazilian foods to the game",
 	"authors": [
-		"Me!"
+		"SofiAzeda_BV"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
-	"icon": "assets/brazilianfoods/icon.png",
+	"license": "MIT",
+	"icon": "assets/brazilianoods/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.bv.brazilianfoods.Brazilianfoods"
+			"com.bv.brazilianfoods.BrazilianFoods"
+		],
+		"client": [
+			"com.bv.brazilianfoods.BrazilianFoodsClient"
 		],
 		"fabric-datagen": [
-			"com.bv.brazilianfoods.BrazilianfoodsDataGenerator"
+			"com.bv.brazilianfoods.BrazilianFoodsDataGenerator"
 		]
 	},
 	"mixins": [

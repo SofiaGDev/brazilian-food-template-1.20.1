@@ -1,4 +1,9 @@
 {
-  "ïtem.brazilian-food.frying_pan": "Frying Pan",
-  "ïtem.brazilian-food.pan": "Pan"
+  "item.brazilianfoods.frying_pan": "Frying Pan",
+  "item.brazilianfoods.pan": "Pan",
+
+
+  "itemgroup.brazilian": "Brazilian Foods"
+
+
 }

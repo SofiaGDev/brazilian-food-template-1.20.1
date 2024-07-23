@@ -1,5 +1,6 @@
 package com.bv.brazilianfoods;
 
+import com.bv.brazilianfoods.block.ModBlocks;
 import com.bv.brazilianfoods.item.ModItemGroups;
 import com.bv.brazilianfoods.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -16,8 +17,9 @@ public class BrazilianFoods implements ModInitializer {
 	public void onInitialize() {
 
 		ModItemGroups.registerItemGroups();
-		ModItems.registerModItems();
 
-		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
+
 	}
 }

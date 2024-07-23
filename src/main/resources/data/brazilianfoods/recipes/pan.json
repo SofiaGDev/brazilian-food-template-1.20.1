@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "L": {
+      "item": "minecraft:leather",  "show_notification": true
+
+    },
+    "C": {
+      "item": "minecraft:cauldron"
+    }
+  },
+  "pattern": [
+    "LC#",
+    "###"
+  ],
+  "result": {
+    "item": "brazilianfoods:pan"
+  }
+}

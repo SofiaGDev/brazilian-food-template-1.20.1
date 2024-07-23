@@ -1,0 +1,18 @@
+
+
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "brazilianfoods:pan"
+    },
+    {
+      "item": "brazilianfoods:oven"
+    }
+  ],
+  "result": {
+    "item": "minecraaft:iron_ingot",
+    "count": 8
+  }
+}

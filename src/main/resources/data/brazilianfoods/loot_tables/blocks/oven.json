@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:blocks",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosions"
+        }
+      ],
+    "entries":[
+      {
+        "types": "minecraft:item",
+        "name": "brazilianfoods:oven"
+      }
+    ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "brazilianfoods:blocks/oven"
+}

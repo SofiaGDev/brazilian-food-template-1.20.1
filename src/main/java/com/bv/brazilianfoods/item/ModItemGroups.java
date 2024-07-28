@@ -20,6 +20,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.PAN)).entries((displayContext, entries) -> {
                         entries.add(ModItems.PAN);
                         entries.add(ModItems.FRYING_PAN);
+                        entries.add(ModItems.METAL_DETECTOR);
 
                         entries.add(ModBlocks.OVEN);
 
